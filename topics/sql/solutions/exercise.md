@@ -1,3 +1,5 @@
+
+
 **## Exercise 1: Create the Students table**
 ```sql
 CREATE TABLE Students (
