@@ -1,4 +1,4 @@
-## Exercise 1: Create the Students table
+**## Exercise 1: Create the Students table**
 ```sql
 CREATE TABLE Students (
     student_id INT PRIMARY KEY,
