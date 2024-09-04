@@ -1,5 +1,3 @@
-
-
 **## Exercise 1: Create the Students table**
 CREATE TABLE Students (
     student_id INT PRIMARY KEY,
