@@ -1,4 +1,5 @@
--- Exercise 1: Create the Students table
+## Exercise 1: Create the Students table
+```sql
 CREATE TABLE Students (
     student_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -8,7 +9,7 @@ CREATE TABLE Students (
     enrollment_date DATE
 );
 
--- Exercise 2: Create the Courses table
+**## Exercise 2: Create the Courses table**
 CREATE TABLE Courses (
     course_id INT PRIMARY KEY,
     course_name VARCHAR(100),
@@ -16,7 +17,7 @@ CREATE TABLE Courses (
     department VARCHAR(50)
 );
 
--- Exercise 3: Create the Enrollments table
+**##  Exercise 3: Create the Enrollments table**
 CREATE TABLE Enrollments (
     enrollment_id INT PRIMARY KEY,
     student_id INT,
@@ -27,7 +28,7 @@ CREATE TABLE Enrollments (
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
 
--- Exercise 4: Create the Instructors table
+**## Exercise 4: Create the Instructors table**
 CREATE TABLE Instructors (
     instructor_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -36,7 +37,7 @@ CREATE TABLE Instructors (
     hire_date DATE
 );
 
--- Exercise 5: Create the Departments table
+**## Exercise 5: Create the Departments table**
 CREATE TABLE Departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(100),
