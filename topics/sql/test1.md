@@ -1,5 +1,6 @@
 **Mock Test**
 **1. INSERT**
+
 **Question 1**: Write an SQL command to insert the following record into a table named students with columns student_id, name, email, and enrollment_date:
 
 student_id: 1
