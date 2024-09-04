@@ -1,4 +1,4 @@
-**##Solutions**
+**Solutions**
 
 **## Exercise 1: Create the Students table**
 CREATE TABLE Students (
