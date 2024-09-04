@@ -1,7 +1,6 @@
-
+**##Solutions**
 
 **## Exercise 1: Create the Students table**
-```sql
 CREATE TABLE Students (
     student_id INT PRIMARY KEY,
     first_name VARCHAR(50),
